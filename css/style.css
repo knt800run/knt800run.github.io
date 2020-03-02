@@ -1,0 +1,192 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #333333;
+    font-size: 15px;
+    line-height: 2;
+    background-color: #F7FCFE;
+}
+p,h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+}
+img {
+    vertical-align: bottom;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: #788d98;
+    text-decoration: none;
+}
+a:hover {
+    color: #788d98;
+    text-decoration: none;
+}
+iframe {
+    display: inline-block;
+    margin: 0;
+}
+button:focus {
+	outline:0;
+}
+
+/* header */
+header {
+    width: 100%;
+}
+.logo a{
+    font-size: 30px;
+    color: #788d98;
+}
+.menu-link a:hover {
+    text-decoration: none;
+    color: skyblue;
+    border-bottom: skyblue 2px solid;
+    padding-bottom: 2px;
+}
+.navbar-toggler {
+    border-color: #ffffff;
+}
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(120, 141, 152, 1)' stroke-width='3' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.navbar-toggler .navbar-toggler-icon:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(135, 206, 235, 1)' stroke-width='3' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.global-nav a {
+    margin: 0 20px;
+    font-size: 20px;
+}
+
+/* wrap */
+#wrap {
+    clear: both;
+    margin-top: 100px;
+    padding: 35px 0;
+}
+.main-center {
+    margin: 0 auto;
+}
+.main-title h1 {
+    font-size: 50px;
+    line-height: 1;
+    text-align: center;
+    margin-bottom: 150px;
+    letter-spacing: 3px;
+}
+.icon {
+    font-size: 30px;
+    border-bottom: skyblue 5px solid;
+    width: 120px;
+    margin-bottom: 50px;
+}
+/* Profile */
+.profile {
+    margin-bottom: 50px;
+}
+.profile-txt {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.profile-txt p {
+    display: inline-block;
+    text-align: left;
+}
+.profile-txt span {
+    font-weight: bold;
+    font-size: 20px;
+}
+.profile-image {
+    width: 350px;
+    height: 350px;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+section {
+    margin-bottom: 35px;
+}
+/* Skill */
+.skill {
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+.skill h4 {
+    text-align: center;
+}
+.skill p {
+    text-align: center;
+}
+.skill-icon {
+    widows: 50%;
+}
+.sample {
+    font-size: 150px;
+    display: block;
+    text-align: center;
+}
+/* Works */
+.work {
+    float: left;
+}
+.work img {
+    border: black 1px solid;
+}
+.work p {
+    text-align: center;
+}
+
+/* Contact */
+.gmail {
+    text-align: center;
+    line-height: 20px;
+}
+.gmail .my-name {
+    font-size: 25px;
+}
+.my-mail {
+    margin-bottom: 5px;
+}
+.sns {
+    text-align: center;
+    margin-top: 0px;
+}
+.sns-name {
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 40px;
+}
+.sns-name a:hover {
+    color: skyblue;
+}
+/* footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+}
+footer small {
+    font-size: 12px;
+}
+/* work.html */
+.underpanel {
+    position: relative;
+}
+.overpanel {
+    position: absolute;
+    z-index: 2;
+}
+.work-show {
+    margin-bottom: 40px;
+}
+.work-text {
+    font-size: 20px;
+    opacity: 0.6;
+    text-align: left;
+}
